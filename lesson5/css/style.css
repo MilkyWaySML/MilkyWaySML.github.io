@@ -1,0 +1,329 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*share*/
+
+.no-padding-right{
+    padding-right: 0px !important;
+}
+
+.no-padding-left{
+    padding-left: 0px !important;
+}
+
+/*share*/
+
+
+
+header{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.header__stripe-top{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 32px 0px 28px;
+    border-bottom: solid 1px #f0f2f7;
+}
+
+.logo{
+    position: relative;
+    width: auto;
+    display: inline-block;
+}
+
+.logo__default{
+    margin-left: 1px;
+}
+
+
+nav{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 1px 0px;
+}
+
+.nav__item{
+    float: left;
+    display: inline-block;
+    margin-right: 27px;
+    margin-top: 4px;
+}
+
+.nav__item:nth-child(1){
+    margin-left: -5px;
+    margin-right: 29px;
+}
+.nav__item:nth-child(3){
+    margin-right: 29px;
+}
+.nav__item:nth-child(4){
+    margin-right: 30px;
+}
+.nav__item:last-child{
+    margin-right: 0px;
+}
+.nav__item a{
+    font-size: 14px;
+    color: #343e5c;
+}
+
+
+.chart-wrap{
+    position: relative;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+.chart-wrap__content{
+    position: relative;
+    height: auto;
+    display: inline-block;
+}
+.chart-wrap__ico{
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    margin-left: -22px;
+}
+.chart-wrap__text{
+    text-transform: uppercase;
+    margin: 5px 4px;
+    display: inline-block;
+    float: left;
+}
+
+.chart-wrap__text a{
+    font-size: 11px;
+    color: #343e5c;
+    text-decoration: none;
+}
+
+.chart-wrap__number{
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.chart-wrap__number a{
+    display: block;
+    position: relative;
+    color: #343e5c;
+    font-size: 11px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.chart-wrap__number::before{
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    top: 2px;
+    left: 43px;
+    border-radius: 23px;
+    background-color: #e3e8f0;
+}
+
+.chart-wrap__number p{
+    position: relative;
+}
+
+.button-wrap{
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.button-wrap__button__signin{
+    position: relative;
+    width: auto;
+    height: auto;
+    font-size: 11px;
+    color: #343e5c;
+    padding: 8px 16px;
+    border: solid 2px #e3e8f0;
+    border-radius: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-top: -2px;
+    right: -37px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.button-wrap__button__signin:hover{
+    color: #e3e8f0;
+    border-color: #343e5c;
+    background-color: #343e5c;
+}
+
+.sub-nav{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+.sub-nav__elem{
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding: 18px 0px;
+}
+
+.sub-nav__elem a{
+    color: #b9bed1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.sub-nav__elem:hover a,
+.sub-nav__elem:active a,
+.sub-nav__elem--active a{
+    color: #343e5c;
+}
+
+.sub-nav__elem:nth-child(1),
+.sub-nav__elem:nth-child(2){
+    margin-right: 29px;
+}
+
+.sub-nav__elem:nth-child(3){
+    margin-right: 28px;
+}
+
+.sub-nav__elem:nth-child(4){
+    margin-right: 28px;
+}
+
+.search-form{
+    position: relative;
+    display: inline-block;
+    border-right: solid 1px #f0f2f7;
+    border-left: solid 1px #f0f2f7;
+}
+
+.search-form__submit{
+    position: relative;
+    padding: 23px 13px 17px 30px;
+    background-image: url(../img/lense.png);
+    background-position: 22px 20px;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.search-form__text-field{
+    position: relative;
+    width: 154px;
+    top: -6px;
+    border: none;
+    outline: none;
+}
+
+
+main{
+    position: relative;
+    min-height: 500px;
+    background-color: #1c1e23;
+    background-image: url(../img/iphone.png);
+    background-position: 791px -66px;
+    background-repeat: no-repeat;
+    background-size: 298px;
+}
+
+.main-phrase{
+    position: relative;
+    width: auto;
+    display: inline-block;
+}
+
+.main-phrase__h2{
+    font-size: 41px;
+    letter-spacing: 0.4px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 97px;
+    line-height: 51px;
+    margin-bottom: 21px;
+}
+
+.main-phrase__p{
+    font-size: 19px;
+    color: #ffffff;
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 76px;
+    line-height: 23px;
+}
+
+.main-phrase__button{
+    font-size: 11px;
+    color: #ffffff;
+    padding: 15px 53px;
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    background-color: #2754eb;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-phrase__button:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #2754eb;
+}
